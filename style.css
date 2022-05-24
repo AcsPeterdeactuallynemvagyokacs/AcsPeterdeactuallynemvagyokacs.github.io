@@ -1,0 +1,16 @@
+.header{
+    background-color: black;
+}
+.ud-header{
+    justify-self: center;
+    position: fixed;
+    color: white;
+}
+.ud-header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.megnyomós{
+}
