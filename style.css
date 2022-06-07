@@ -27,9 +27,6 @@
     color:gray;
 }
 
-.pre-container p{
-    margin: 0;
-}
 
 .container{
     padding: 0;
@@ -59,4 +56,16 @@
 
 .centered{
     text-align: center;
+}
+
+.main{
+    text-align: center;
+}
+
+.footer{
+    background-color: gray;
+}
+
+table{
+    margin: 0 auto;
 }
