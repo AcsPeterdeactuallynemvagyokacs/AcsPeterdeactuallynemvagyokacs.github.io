@@ -1,13 +1,40 @@
+body{
+    margin: 0;
+}
+
 .top-header{
-    color:gray;
-    background: white;
+    color:white;
+    background-color: rgb(11, 11, 30);
     font-family: 'Times New Roman', Times, serif;
 }
 
-.pre-header{
-    color:gray;
-    background: white;
+.container a{
+    display: inline-block;
+    padding: auto;
+}
+
+.container img{
+    width: 18%;
+    height: 18%;
+}
+
+.egoista-pre-header{
+    margin: 0;
+    color:white;
+    background-color: rgb(11, 11, 30);
     font-family: 'Times New Roman', Times, serif;
+}
+
+.egoista-pre-header a:link, :visited{
+    text-decoration: none;
+}
+
+.egoista-pre-header a:hover{
+    color: orange
+}
+
+.egoista-pre-header h1{
+    margin: 0;
 }
 
 .noliststyle{
@@ -16,15 +43,17 @@
     margin: -5px;
 }
 
+
 .pre-container{
     padding: 0;
+    margin: 0;
     margin-left:-15px;
     margin-right: -15px;
     box-sizing: inherit;
     text-align: center;
     font-size: 15px;
     text-transform: inherit!important;
-    color:gray;
+    color: white;
 }
 
 
@@ -39,7 +68,7 @@
 }
 
 .container a:link, a:visited{
-    color: gray;
+    color: white;
     text-decoration: none;
 }
 
@@ -49,7 +78,7 @@
 }
 
 .container a:hover{
-    color: red;
+    color: orange;
     background-color: transparent;
     text-decoration: none;
 }
@@ -60,12 +89,15 @@
 
 .main{
     text-align: center;
+    background-color: white;
 }
 
-.footer{
-    background-color: gray;
+.pre-row{
+    margin: 0;
 }
 
-table{
-    margin: 0 auto;
+.main img{
+    padding: 0%;
+    width: 50%;
+    height: 50%;
 }
