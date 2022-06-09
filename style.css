@@ -1,28 +1,19 @@
 body{
     margin: 0;
+    padding: 0;
 }
 
-/*/////////*/
+/*
+/
+/
+/
+/
+/
+*/
 
-.top-header{
-    color:white;
-    background-color: rgb(11, 11, 30);
-    font-family: 'Times New Roman', Times, serif;
+.pre-row{
+    margin: 0;
 }
-
-a#riotlogo{
-    display: inline-block;
-    margin-left: -250px;
-    margin-bottom: -30px;
-    width: 15%;
-    height: 15%;
-}
-
-a#riotlogo img{
-    width: 57%;
-    height: 57%;
-}
-
 .egoista-pre-header{
     margin: 0;
     color:white;
@@ -42,6 +33,7 @@ a#riotlogo img{
     margin: 0;
 }
 
+
 .pre-container{
     padding: 0;
     margin: 0;
@@ -54,6 +46,32 @@ a#riotlogo img{
     color: white;
 }
 
+
+/* 
+/
+/
+/
+/
+*/
+
+.top-header{
+    color:white;
+    background-color: rgb(11, 11, 30);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a#riotlogo{
+    display: inline-block;
+    margin-left: -250px;
+    margin-bottom: -30px;
+    width: 15%;
+    height: 15%;
+}
+
+a#riotlogo img{
+    width: 57%;
+    height: 57%;
+}
 
 .container{
     position: relative;
@@ -82,11 +100,13 @@ a#riotlogo img{
     text-decoration: none;
 }
 
-.pre-row{
-    margin: 0;
-}
-
-/* + Cuccok */
+/*
++ Cuccok 
+/
+/
+/
+/
+*/
 
 .centered{
     text-align: center;
@@ -100,13 +120,37 @@ a#riotlogo img{
 
 /* Header alatt */
 
-.main{
+.mainc {
+    text-align: center;
+    background-color: white;
+}
+
+.mainc #choose{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.mainc #onehero{
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    font-style: italic;
+    display: block;
+    font-size: 40px;
+    padding: 0px 15px 10px;
+    letter-spacing: 0.06em;
+    font-family: "Beaufort for LOL", serif;
+}
+
+.main, header{
     text-align: center;
     background-image: url("lolbackground.png");
     background-attachment: fixed;
 }
 
-.main img{
+header img{
     padding: 0%;
     width: 50%;
     height: 50%;
@@ -127,7 +171,7 @@ a#riotlogo img{
 .center-line{
     color:white;
     background-color: rgb(11, 11, 30);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Beafort for LOL", serif;
 }
 
 
@@ -148,7 +192,7 @@ a#riotlogo img{
 }
 
 .centercontainer > .noliststyle > a{
-    display:inline-block;
+    display: inline-block;
     padding: 20px 10px 20px;
 }
 
