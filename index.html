@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>League of Legends</title>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <style>
         #chooseupper{
@@ -13,6 +14,21 @@
             margin-left: 765px;
             width: 400px;
             margin-bottom: 20px;
+        }
+        #chooselower{
+            margin-top: 20px;
+            margin-left: 765px;
+            width: 400px;
+            margin-bottom: 20px;
+            display: block;
+        }
+        #asd{
+            display:inline-block;
+            width: 300px;
+            margin-left: -15px;
+            margin-right: -15px;
+            color: orange;
+            border: orange 1px solid;
         }
     </style>
 </head>
@@ -36,16 +52,16 @@
                     <a id="riotlogo" target="_blank" href="https://riotgames.com/hu">
                         <img src="https://www.freelogovectors.net/wp-content/uploads/2022/05/riot_games_logo_freelogovectors.net_.png" alt="">
                     </a>
-                    <a target="_blank" href="https://youtube.com">YouTube</a> <!-- Linkek amik új oldalra visznek (megnyitnek új lapot)-->
-                    <a target="_blank" href="https://facebook.com">Facebook</a>
-                    <a target="_blank" href="https://twitter.com">Twitter</a>
-                    <a target="_blank" href="https://instagram.com">Instagram</a>
+                    <a target="_blank" href="https://www.youtube.com/c/leagueoflegends">YouTube</a> <!-- Linkek amik új oldalra visznek (megnyitnek új lapot)-->
+                    <a target="_blank" href="https://www.facebook.com/gaming/leagueoflegends">Facebook</a>
+                    <a target="_blank" href="https://twitter.com/LeagueOfLegends">Twitter</a>
+                    <a target="_blank" href="https://www.instagram.com/leagueoflegends/">Instagram</a>
                 </ul>
             </nav>
         </div>
     </div>
     <header class="centered"> <!-- Header és cím-->
-        <img src="https://www.leagueoflegends.com/static/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png" alt=""></img><!-- Középre igazított "doboz"-->
+        <img id="lolfelirat" src="https://www.leagueoflegends.com/static/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png" alt=""></img><!-- Középre igazított "doboz"-->
     </header>
     <div class="center-line">
         <div class="center-row">
@@ -67,9 +83,35 @@
                 KARAKTERED!
             </h2>
             <p> A Legendák Ligájában több száz karakter (hős) közül válaszhatsz!</p>
-            <p> Biztosan van olyan ami tetszeni fog! </p>
-
+            <span> Biztosan van olyan ami tetszeni fog! </span>
+            <hr id="chooselower">
         </div>
+    </div>
+    <div class="mainb centered">
+        <h2> Pár karakter a</h2>
+        <h1> kedvenceim közül</h1> <!-- 3. h1-es tag-->
+        <hr id="asd">
+        <div class="grid-container">
+            <div class="grid-row mage">
+                <h2>Veigar</h2>
+                <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltda2b568b0c3e5847/5db06014e9effa6ba5295fb9/RiotX_ChampionList_veigar.jpg?quality=90&width=250" alt="">
+            </div>
+            <div class="grid-row assasin">
+                <h2>Zed</h2>
+                <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt402d6da485218720/5db0601de9effa6ba5295fc5/RiotX_ChampionList_zed.jpg?quality=90&width=250" alt="">
+            </div>
+            <div class="grid-row assasin">
+                <h2>Ekko</h2>
+                <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf22ba7e6328e4376/5db05fbd242f426df132f963/RiotX_ChampionList_ekko.jpg?quality=90&width=250" alt="">
+            </div>
+            <div class="grid-row bruiser">
+                <h2>Warwick</h2>
+                <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt08a92f3897cfc8f5/5db0601ddc674266df3d5d5c/RiotX_ChampionList_warwick.jpg?quality=90&width=250" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="main centered">
+        <img id="map" src="player-guide-map-1440-32575baa2f8d2b2bfd5cfd07e11d1361.png" alt="">
     </div>
 </body>
 
